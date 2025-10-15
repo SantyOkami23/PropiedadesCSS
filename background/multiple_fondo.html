@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#miDIV { 
+  width: 400px;
+  height: 400px;
+  /* Evita que la primera imagen se repita, pero permite que la segunda sí */
+  background-repeat: no-repeat, repeat;
+  
+  /* Se aplican dos imágenes de fondo: la primera (árbol) y la segunda (papel) */
+  background-image: url("../imagenes/fondo2.png"), url("../imagenes/fondoflor.jpg");
+  
+  /* Mezcla las imágenes usando el modo "aclarar" (lighten) */
+  background-blend-mode: lighten;
+}
+</style>
+</head>
+<body>
+
+<h1>La propiedad background-blend-mode</h1>
+
+<div id="miDIV"></div>
+
+<p><b>Nota:</b> Las versiones de Microsoft Edge anteriores a la 79 no son compatibles con la propiedad <code>background-blend-mode</code>.</p>
+
+</body>
+</html>

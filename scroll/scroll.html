@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 600px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 600px;
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h1>Desplazamiento Suave</h1>
+
+<div class="main" id="section1">
+  <h2>Sección 1</h2>
+  <p>Haz clic en el enlace para ver el efecto de desplazamiento "suave".</p>
+  <a href="#section2">Haz clic aquí para desplazarte suavemente a la Sección 2</a>
+  <p>Nota: elimina la propiedad scroll-behavior para quitar el desplazamiento suave.</p>
+</div>
+
+<div class="main" id="section2">
+  <h2>Sección 2</h2>
+  <a href="#section1">Haz clic aquí para desplazarte suavemente a la Sección 1</a>
+</div>
+
+</body>
+</html>

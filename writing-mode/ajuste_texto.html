@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 150px; 
+  border: 1px solid #000000;
+}
+
+div.a {
+  word-wrap: normal;
+}
+
+div.b {
+  word-wrap: break-word;
+}
+</style>
+</head>
+<body>
+
+<h1>La Propiedad word-wrap</h1>
+
+<h2>word-wrap: normal (valor predeterminado):</h2>
+<div class="a">Este div contiene una palabra muy larga: thisisaveryveryveryveryveryverylongword. La palabra larga no se dividirá ni pasará a la siguiente línea.</div>
+
+<h2>word-wrap: break-word:</h2>
+<div class="b">Este div contiene una palabra muy larga: thisisaveryveryveryveryveryverylongword. La palabra larga se dividirá y continuará en la siguiente línea.</div>
+
+</body>
+</html>
